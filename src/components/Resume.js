@@ -20,7 +20,13 @@ class Resume extends Component {
             <h2 style={{paddingTop:'2em'}}>Desmond van Zurk</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop:'3px solid #833FB2', width:'50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containi</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industrys standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containi</p>
             <hr style={{borderTop:'3px solid #833FB2', width:'50%'}}/>
             <h5>Address</h5>
             <p>Hacker Way Menlo Park, 94025</p>
@@ -70,19 +76,43 @@ class Resume extends Component {
         <h2>Skills</h2>
         <Skills
           skill="HTML/CSS"
-          progress={70}
+          progress={6.9}
+          hours="69/1000 hours"
         />
         <Skills
           skill="Javascript"
-          progress={50}
+          progress={5.5}
+          hours="55/1000 hours"
         />
         <Skills
           skill="React"
-          progress={15}
+          progress={1.5}
+          hours="15/1000 hours"
         />
         <Skills
-          skill="NodeJS"
+          skill="Python"
+          progress={8.3}
+          hours="83/1000 hours"
+        />
+        <Skills
+          skill="Django"
+          progress={3.8}
+          hours="38/1000 hours"
+        />
+        <Skills
+          skill="SQL"
+          progress={.1}
+          hours="1/1000 hours"
+        />
+        <Skills
+          skill="PHP"
           progress={0}
+          hours="0/1000 hours"
+        />
+        <Skills
+          skill="Total"
+          progress={2.81}
+          hours="281/10000 hours"
         />
 
 
