@@ -25,7 +25,8 @@ class App extends Component {
       params={particlesOptions}
       />
           <Layout>
-              <Header className="header-color" title=" " scroll>
+              <Header className="header-color" title={<Link style={{textDecoration:'none',
+              color:'white'}} to="/">My portfolio</Link>} scroll>
                   <Navigation>
                       <Link to="/">Home</Link>
                       <Link to="/Resume">Resume</Link>
@@ -34,7 +35,8 @@ class App extends Component {
                       <Link to="/Contacts">Contacts</Link>
                   </Navigation>
               </Header>
-              <Drawer title="Title">
+              <Drawer title={<Link style={{textDecoration:'none',
+              color:'black'}} to="/">My portfolio</Link>}>
                   <Navigation>
                   <Link to="/">Home</Link>
                   <Link to="/Resume">Resume</Link>
