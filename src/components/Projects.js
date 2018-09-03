@@ -13,7 +13,7 @@ class Projects extends Component {
       <div className="projects-grid">
         <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px',
-          background:'url(https://reactjs.org/logo-og.png) center/cover'}}>React project 1</CardTitle>
+          background:'url(https://camo.githubusercontent.com/b367332682f8424e6477ae6fde07bc0bd562b48d/68747470733a2f2f692e696d6775722e636f6d2f6a6d4b477036632e6a7067) center/cover'}}>Robofriends App</CardTitle>
           <CardText>
           lorem ips
           </CardText>
@@ -28,7 +28,7 @@ class Projects extends Component {
         </Card>
         <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px',
-          background:'url(https://reactjs.org/logo-og.png) center/cover'}}>React project 1</CardTitle>
+          background:'url(https://reactjs.org/logo-og.png) center/cover'}}>Smartbrain</CardTitle>
           <CardText>
           lorem ips
           </CardText>
