@@ -3,27 +3,12 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/Main'
 import { Link } from 'react-router-dom';
-import Particles from 'react-particles-js';
 
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 30,
-      density: {
-        enable: true,
-        value_area: 800,
-      }
-    }
-  }
-}
 
 class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-      <Particles className="particles"
-      params={particlesOptions}
-      />
           <Layout>
               <Header className="header-color" title={<Link style={{textDecoration:'none',
               color:'white'}} to="/">My portfolio</Link>} scroll>
