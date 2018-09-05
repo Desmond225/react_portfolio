@@ -20,22 +20,22 @@ class Resume extends Component {
             <h2 style={{paddingTop:'2em'}}>Desmond van Zurk</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop:'3px solid #833FB2', width:'50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with
-            the release of Letraset sheets containi</p>
+            <p>My name is Desmond and in March of 2018 I decided to apply the
+            10000 hour theory on becoming a programmer. This decision came after
+            finding out my true passion was not found in my former job as a physical
+            therapist. I have always been keen about computers, technology and numbers,
+            so finding out about programming really opened up my eyes. If everything
+            goes according to plan, I should be able to reach my goal by 2025, coding
+            for 30 hours a week in a deliberate manner.</p>
             <hr style={{borderTop:'3px solid #833FB2', width:'50%'}}/>
             <h5>Address</h5>
             <p>Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
             <p>123 456 456 7890</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>d.van.zurk@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>coming soon!</p>
             <hr style={{borderTop:'3px solid #833FB2', width:'50%'}}/>
 
         </Cell>
@@ -67,7 +67,7 @@ class Resume extends Component {
         />
         <Experience
         startYear={2018}
-        endYear={2028}
+        endYear={2025}
         jobName="10000 hours of coding"
         jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the"
         />

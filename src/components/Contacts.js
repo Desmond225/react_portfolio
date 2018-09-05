@@ -14,8 +14,18 @@ class Contacts extends Component {
       alt="avatar"
       style={{height:'250px'}}
       />
-      <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
+      <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>
+      I am very interested in the learning potential of human beings, and so in 2013
+      I decided to plunge myself into an experiment: To apply the 10000 hour rule
+      of deliberate practice on golf. I would give myself 10 years to achieve this goal,
+      and currently speaking I am 4500 hours into the progress.</p><br/>
+
+      <p>Having studied Physical therapy at the Hogeschool van Amsterdam and graduating
+      in 2016, I have decided to make a career switch to programming in 2018.
+      The main reason for this switch was the lack of passion in my previous profession.
+      The approach of becoming a programmer was to apply the 10000 hour theory again,
+      using deliberate practice in order to achieve my maximum potential by the year 2025.
+      It's a daunting idea, but I believe hard work can achieve everything.</p>
       </Cell>
       <Cell col={6}>
       <h2>Contact me</h2>
@@ -32,14 +42,7 @@ class Contacts extends Component {
           <ListItem>
             <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
             <i className="fa fa-envelope" area-hidden="true"/>
-            someone@example.com
-            </ListItemContent>
-          </ListItem>
-
-          <ListItem>
-            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-            <i className="fa fa-skype" area-hidden="true"/>
-            Skype-id
+            d.van.zurk@gmail.com
             </ListItemContent>
           </ListItem>
           </List>

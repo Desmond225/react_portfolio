@@ -8,7 +8,7 @@ class AboutMe extends Component {
       <div className="aboutme-body">
       <Grid className="aboutme-grid">
       <Cell col={9}>
-      <h2>Coding for 10000 hours</h2>
+      <h3 style={{fontSize:'50px',fontFamily:'Anton'}}>The journey of coding for 10000 hours</h3>
       <img className="aboutme-img"
       src="https://i0.wp.com/www.allaboutlean.com/wp-content/uploads/2026/03/PDCA-Circle-Color.png?fit=449%2C449&ssl=1"
       alt="avatar"
@@ -36,7 +36,8 @@ class AboutMe extends Component {
       <a href="https://www.youtube.com/terefs">youtube channel</a> on which my swing
       transformation can be enjoyed.</p>
 
-      <h3 style={{fontSize:'40px',fontFamily:'Anton'}}>Part 1: Front end web development (210/500 hours)</h3>
+      <h3 style={{fontSize:'40px',fontFamily:'Anton'}}>Part 1: General orientation &
+      Front end web development (210/500 hours)</h3>
       <p>So far, I have logged nearly 300 hours of coding. In order to have a better
       understanding about my progress, I have split up the total hours over several
       parts of programming, such as different languages. The ultimate goal of

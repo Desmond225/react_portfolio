@@ -41,7 +41,8 @@ class Projects extends Component {
           been recognized by the application.
           </CardText>
           <CardActions border>
-          <Button colored>GitHub</Button>
+          <Button colored href="https://github.com/Desmond225/Smartbrain"
+          target="_blank" rel="noopener noreferrer">GitHub</Button>
           <Button colored>CodePen</Button>
           <Button colored>Live Demo</Button>
           </CardActions>
@@ -74,12 +75,17 @@ class Projects extends Component {
       <div className="projects-grid">
         <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px',
-          background:'url(https://pbs.twimg.com/profile_images/76166699/django-logo-negative-box_400x400.png) center/cover'}}>Django App 1</CardTitle>
+          background:'url(https://pbs.twimg.com/profile_images/76166699/django-logo-negative-box_400x400.png) center/cover'}}>
+          Portfolio website</CardTitle>
           <CardText>
-          lorem ips
+          Using my HTML, CSS, Python and Django skills, I was able to create my very
+          first website, which I built with the help of a Udemy course. The website
+          runs on Python 3.6, and was used as an introduction to my coding journey
+          whilst practicing my programming skills.
           </CardText>
           <CardActions border>
-          <Button colored>GitHub</Button>
+          <Button colored href="https://github.com/Desmond225/Portfolio_done"
+          target="_blank" rel="noopener noreferrer">GitHub</Button>
           <Button colored>CodePen</Button>
           <Button colored>Live Demo</Button>
           </CardActions>
@@ -89,12 +95,16 @@ class Projects extends Component {
         </Card>
         <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px',
-          background:'url(https://pbs.twimg.com/profile_images/76166699/django-logo-negative-box_400x400.png) center/cover'}}>Django App 2</CardTitle>
+          background:'url(https://pbs.twimg.com/profile_images/76166699/django-logo-negative-box_400x400.png) center/cover'}}>
+          Cake and bake</CardTitle>
           <CardText>
-          lorem ips
+          This website runs on the Django/Python framework and displays a basic
+          website about a hobbyist who is into baking desserts. The website itself
+          never was polished, since I am planning to rebuild the website using React.
           </CardText>
           <CardActions border>
-          <Button colored>GitHub</Button>
+          <Button colored href="https://github.com/Desmond225/cake-bake"
+          target="_blank" rel="noopener noreferrer">GitHub</Button>
           <Button colored>CodePen</Button>
           <Button colored>Live Demo</Button>
           </CardActions>
@@ -102,30 +112,16 @@ class Projects extends Component {
             <IconButton name='share' />
           </CardMenu>
         </Card>
-        <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-          <CardTitle style={{color: '#fff', height:'176px',
-          background:'url(https://pbs.twimg.com/profile_images/76166699/django-logo-negative-box_400x400.png) center/cover'}}>Django App 3</CardTitle>
-          <CardText>
-          lorem ips
-          </CardText>
-          <CardActions border>
-          <Button colored>GitHub</Button>
-          <Button colored>CodePen</Button>
-          <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share' />
-          </CardMenu>
-        </Card>
+
         </div>
     )
   } else if(this.state.activeTab === 2){
     return (
-      <div><h1>This is Angular</h1></div>
+      <div><h1>Oops! No experience yet in Angular</h1></div>
     )
 } else if(this.state.activeTab === 3){
   return (
-    <div><h1>This is PostgreSQL</h1></div>
+    <div><h1>Oops! No experience yet in PostgreSQL</h1></div>
   )}
 }
 
