@@ -1,0 +1,8 @@
+render dummy project container
+MyWork (shopPage)-> ProjectOverview (collectionoverview) -> ProjectPreview (collectionpreview) -> Project (collectionitem)
+
+create store object for projects
+create redux store
+pull data from store
+render filtered projects based on active tab
+

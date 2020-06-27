@@ -1,0 +1,1 @@
+//render an overview of project collections (based on technique), by looping through these

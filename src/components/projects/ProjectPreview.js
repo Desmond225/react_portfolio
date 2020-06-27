@@ -1,0 +1,1 @@
+//render an overview of projects by techniques (collection), then filter through these collections and map accordingly afterwards
