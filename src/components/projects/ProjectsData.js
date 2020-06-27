@@ -1,17 +1,3 @@
-// import smartBrainImage from "./smartbrain.png";
-// import planStackImage from "./planstack.png";
-// import webshopImage from "./webshop.png";
-// import massmovementImage from './massmovement.png';
-// import JPHaarlemImage from './jphaarlem.png';
-// import codestackersImage from './codestackers.png';
-// import robofriendsImage from './robofriends.png';
-// import lovechockImage from './lovechock.png';
-// import littleloveImage from './littlelove.png';
-// import q4changeImage from './q4change.png';
-// import hamersmaImage from './hamersma.png';
-// import subaruImage from './subaru.png';
-// import techinmotionImage from './techinmotion.png';
-
 const PROJECTS_DATA = [
     {
         id: 1,
@@ -162,22 +148,22 @@ const PROJECTS_DATA = [
             }
         ]
     },
-    // {
-    //     id: 3,
-    //     title: 'Wordpress',
-    //     tabName: 'wordpress',
-    //     items: [
-    //         {
-    //             id: 1,
-    //             name: 'JP Haarlem',
-    //             imageUrl: JPHaarlemImage,
-    //             tab: 2,
-    //             github: '',
-    //             codepen: '',
-    //             url: 'https://jphaarlem.nl/en/',
-    //         }
-    //     ]
-    // }
+    {
+        id: 3,
+        title: 'Wordpress',
+        tabName: 'wordpress',
+        items: [
+            {
+                id: 1,
+                name: 'JP Haarlem',
+                // imageUrl: JPHaarlemImage,
+                tab: 2,
+                github: '',
+                codepen: '',
+                url: 'https://jphaarlem.nl/en/',
+            }
+        ]
+    }
 ]
 
 export default PROJECTS_DATA;

@@ -6,3 +6,6 @@ create redux store
 pull data from store
 render filtered projects based on active tab
 
+
+
+*replace links with routes

@@ -30,7 +30,7 @@ class App extends Component {
                       <Link to="/">Home</Link>
                       <Link to="/Resume">Resume</Link>
                       <Link to="/AboutMe">About Me</Link>
-                      <Link to="/Projects">Projects</Link>
+                      <Link to="/MyWork">My Work</Link>
                       <Link to="/Contacts">Contacts</Link>
                   </Navigation>
               </Header>
@@ -39,7 +39,7 @@ class App extends Component {
                   <Link to="/">Home</Link>
                   <Link to="/Resume">Resume</Link>
                   <Link to="/AboutMe">About Me</Link>
-                  <Link to="/Projects">Projects</Link>
+                  <Link to="/MyWork">My Work</Link>
                   <Link to="/Contacts">Contacts</Link>
                   </Navigation>
               </Drawer>
