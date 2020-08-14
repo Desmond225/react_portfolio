@@ -43,14 +43,26 @@
         &.blue {
             background: linear-gradient(90deg, rgba(0,85,255,0.7) 0%, rgba(0,85,255,1) 100%);
         }
-        &.littlelove {
+        &.red {
             background: linear-gradient(90deg, rgba(220,53,69,0.5) 0%, rgba(220,53,69,1) 100%);
-            .work__card--img {
-                width: 250px;
-                height: unset;
-                bottom: unset;
-            }
         }
+
+        &.dbt-energie {
+            background: linear-gradient(90deg, #362a51 0%, rgba(255, 189, 59, 0.7) 100%)
+        }
+        &.dgh {
+            background-image: url('../../img/logo/dgh-bg.png');
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: bottom right;
+        }
+        &.dark-blue {
+            background: #00317A;
+        }
+        &.yellow {
+            background: #f9a810;
+        }
+
         
 
     &--img {
@@ -59,7 +71,7 @@
         transform: translateX(-50%);
         bottom: calc(50% - 62px);
         height: 125px;
-        width: 150px;
+        width: 300px;
     }
 }
 }

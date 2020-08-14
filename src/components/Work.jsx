@@ -18,7 +18,7 @@ const Work = () => {
 
     return (
     <section className="work">
-        <Container>
+        <Container fluid>
         <h1>My work</h1>
         <div className="work__grid">
             {projects}
