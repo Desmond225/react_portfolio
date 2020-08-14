@@ -1,0 +1,14 @@
+@import "components/intro";
+@import "components/about";
+@import "components/work";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}

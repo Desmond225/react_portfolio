@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
-import Main from './components/Main'
+import './scss/App.scss';
+import Main from './Main'
 import Header from './components/Navbar';
 
 const App = () => {
   return (
-    <div className="">
+    <div id="App">
       <Header />
-      <div className="page-content" />
       <Main />
-
-
+      {/* <Footer /> */}
     </div>
   );
 }
