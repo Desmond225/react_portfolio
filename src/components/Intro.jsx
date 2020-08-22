@@ -3,9 +3,10 @@ import React from 'react';
 const Intro = () => (
 <section className="intro">
 <div className="banner-text">
-  <h1>Web developer & JavaScript developer</h1>
-  <p>Hi - I'm Desmond, a former physical therapist turned web developer.</p>
-  <hr/>
+
+  <h1>Full stack web developer</h1>
+  <p>Hi - I'm Desmond</p>
+  {/* <hr/> */}
   <div className="social-links">
   {/* LinkedIn */}
   <a href="https://www.linkedin.com/in/desmond-van-zurk-6b366424/" target="_blank" rel="noopener noreferrer">

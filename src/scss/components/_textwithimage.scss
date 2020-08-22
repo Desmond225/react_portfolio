@@ -1,0 +1,16 @@
+.textwithimage {
+
+    &__img {
+        // box-shadow: 9px 10px 5px 0px rgba(232,232,232,1);
+        // border: 1px solid #777;
+        width: 100%;
+        text-align: center;
+
+        ul {
+            text-align: left;
+            li {
+                list-style: none;
+            }
+        }
+    }
+}
