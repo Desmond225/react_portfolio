@@ -1,12 +1,17 @@
+@import "base/fonts.scss";
+@import "base/typography.scss";
+
+
 @import "components/intro";
 @import "components/about";
 @import "components/work";
 @import "components/textwithimage";
+@import "components/technologies";
 
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {

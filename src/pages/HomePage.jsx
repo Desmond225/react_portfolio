@@ -3,13 +3,15 @@ import Intro from '../components/Intro';
 import About from '../components/About';
 import Work from '../components/Work';
 import TextWithImage from '../components/TextWithImage';
+import Technologies from '../components/Technologies';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
         <Intro />
-        <TextWithImage 
+        <Technologies />
+        {/* <TextWithImage 
           imgLeft 
           title={'Front-end web development'}
           description={'Some information about the things I do that are related to front-end web development'}
@@ -17,7 +19,7 @@ class HomePage extends Component {
         <TextWithImage 
           title={'Back-end web development'}
           description={'Some information about the things I do that are related to back-end web development'}
-          />
+          /> */}
         <About />
         <Work />
         {/* <HobbyProjects />
