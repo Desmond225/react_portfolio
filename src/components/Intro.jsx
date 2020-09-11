@@ -2,31 +2,19 @@ import React from 'react';
 
 const Intro = () => (
 <section className="intro">
-<div className="banner-text">
-
-  <h1>Full stack web developer</h1>
-  <p>Hi - I'm Desmond</p>
-  {/* <hr/> */}
-  <div className="social-links">
-  {/* LinkedIn */}
-  <a href="https://www.linkedin.com/in/desmond-van-zurk-6b366424/" target="_blank" rel="noopener noreferrer">
-    <i id="one" className="fa fa-linkedin-square" aria-hidden="true" />
-  </a>
-  {/* GitHub*/}
-  <a href="https://github.com/Desmond225/" target="_blank" rel="noopener noreferrer">
-    <i id="two" className="fa fa-github-square" aria-hidden="true" />
-  </a>
-  {/* FreeCodeCamp */}
-  <a href="https://www.freecodecamp.org/desmond225" target="_blank" rel="noopener noreferrer">
-    <i id="three" className="fa fa-free-code-camp" aria-hidden="true" />
-  </a>
-  {/* YouTube */}
-  <a href="https://www.youtube.com/terefs" target="_blank" rel="noopener noreferrer">
-    <i id="four" className="fa fa-youtube-square" aria-hidden="true" />
-  </a>
-
-  </div>
-</div>
+  <div className="container">
+  <h1 className="pt-5">Full stack web development</h1>
+  <div className="text-center">
+            <p>Hi there, I'm Desmond - and using the 10000 hour role for my journey in programming.</p>
+            {/* <p>As a firm believer in hard work in order to achieve success, I've indulged myself in the phenomenon of the 10000 hour rule,</p>
+               <p>based on deliberate practice.</p>
+            <p>After logging over 5000 hours in golf, I felt like programming would fit perfectly as a 'second chapter'.</p>
+            <p>This has been the foundation for my career switch. 
+                What's my current progress? 3600 hours, </p>
+                <p>even though this number increases so quickly it's probably a little bit more by the time you read this. ;-)
+            </p> */}
+            </div>
+            </div>
 </section>
 )
 

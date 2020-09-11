@@ -4,6 +4,7 @@ import About from '../components/About';
 import Work from '../components/Work';
 import TextWithImage from '../components/TextWithImage';
 import Technologies from '../components/Technologies';
+import Footer from '../components/Footer';
 
 class HomePage extends Component {
   render() {
@@ -20,8 +21,9 @@ class HomePage extends Component {
           title={'Back-end web development'}
           description={'Some information about the things I do that are related to back-end web development'}
           /> */}
-        <About />
+
         <Work />
+        <Footer />
         {/* <HobbyProjects />
         <CallToAction /> */}
       </div>

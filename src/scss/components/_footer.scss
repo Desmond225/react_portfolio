@@ -1,0 +1,42 @@
+footer {
+    background: #193886;
+    color: #fff;
+    padding: 2rem 0;
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      
+        i {
+          color: #fff;
+          font-size: 2em;
+          padding: 0 1rem;
+        }
+      }
+      #one {
+        transition: 0.2s ease-in-out;
+      }
+      #one:hover {
+        transform: scale(1.1);
+      }
+      #two {
+        transition: 0.2s ease-in-out;
+      }
+      #two:hover {
+        transform: scale(1.1);
+      }
+      #three {
+        transition: 0.2s ease-in-out;
+      }
+      #three:hover {
+        transform: scale(1.1);
+      }
+      #four {
+        transition: 0.2s ease-in-out;
+      }
+      #four:hover {
+        transform: scale(1.1);
+      }
+      
+}

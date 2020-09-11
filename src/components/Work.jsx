@@ -8,10 +8,10 @@ const Work = () => {
         return (
         <div className={`work__card ` + project.background }>
             <img className="work__card--img" src={project.imageUrl} alt=""/>
-            <div className="work__card--description">
+            {/* <div className="work__card--description">
                 <p>text here</p>
                 <button className="btn btn-outline-primary">Visit website</button>
-                </div>
+            </div> */}
         </div>
         )
     })
@@ -19,7 +19,7 @@ const Work = () => {
     return (
     <section className="work">
         <Container fluid>
-        <h1>My work</h1>
+        <h1 className="pb-5">The work I've created</h1>
         <div className="work__grid">
             {projects}
         </div>

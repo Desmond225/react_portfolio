@@ -1,24 +1,49 @@
 .technologies {
+    color: #305AAB;
     text-align: center;
+    font-size: .875rem;
+    
     ul {
+        padding: 0;
         li {
             list-style: none;
         }
     }
     &__grid {
-        border: 1px solid rgb(230,236,248);
         border-radius: 10px;
+        margin-top: -15rem;
+        
         @supports(display: grid) {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 2rem;
         }
     }
     &__item {
-        border-right: 1px solid rgb(230,236,248);
+        background: #FFF;
+        padding: 1rem 2rem;
+        // box-shadow: 10px 10px 5px -6px #F6F9FF;
+        border: .5px solid #FFF;
+        border-radius: .25rem;
 
-    
-        &:last-of-type {
-            border-right: none;
+        &--title {
+            // min-height: 4.2rem;
+        }
+
+        &--description {
+            min-height: 7.5rem;
+            margin-top: 2rem;
+        }
+
+        &--hr {
+            border-color: #305AAB;
+            width: 50%;
+        }
+
+        &--libraries {
+            p {
+                min-height: 5rem;
+            }
         }
     }
 }

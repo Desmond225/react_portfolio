@@ -1,20 +1,23 @@
 @import "base/fonts.scss";
 @import "base/typography.scss";
 
-
+@import "components/navbar";
 @import "components/intro";
 @import "components/about";
 @import "components/work";
 @import "components/textwithimage";
 @import "components/technologies";
+@import "components/footer";
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #a9a9a9;
+  background: #F6F9FF;
 }
 
 section {
-  padding-top: 5rem;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem 0;
 }

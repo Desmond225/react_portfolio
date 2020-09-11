@@ -1,6 +1,10 @@
 .work {
     text-align: center;
 
+    &__header {
+        margin-bottom: 2rem;
+    }
+
     &__grid {
         @supports(display: grid) {
             display: grid;
@@ -24,16 +28,17 @@
         }
 
         &:hover {
-            background: rgba(20, 28, 58, 0.8) !important;
-            .work__card {
-                &--img {
-                    display: none;
-                }
+            transform: scale(1.05);
+            // background: rgba(20, 28, 58, 0.8) !important;
+            // .work__card {
+            //     &--img {
+            //         display: none;
+            //     }
 
-            &--description {
-                display: block;
-                }
-            }
+            // &--description {
+            //     display: block;
+            //     }
+            // }
         }
 
         &.brown {
